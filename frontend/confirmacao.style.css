@@ -1,0 +1,40 @@
+/* Centralizando todo o bloco de confirmação */
+.confirmation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+/* Organizando os elementos em coluna e centralizando o texto */
+.confirmation-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* O círculo em volta do ícone de check */
+.icon-circle {
+    width: 120px;
+    height: 120px;
+    border: 3px solid white; /* Borda branca grossa */
+    border-radius: 50%; /* Transforma o quadrado em círculo perfeito */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* Título principal */
+.confirmation-box h2 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Texto de subtítulo */
+.confirmation-box p {
+    font-size: 1.2rem;
+    color: #a0a0a0;
+}

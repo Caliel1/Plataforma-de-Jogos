@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil - Cloud Play Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="perfil.style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo" style="cursor: pointer;" onclick="window.location.href='index.html'">Cloud Play Store</div>
+        <nav>
+            <ul>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+        <button class="btn-login" onclick="window.location.href='index.html'">Sair</button>
+    </header>
+
+    <main class="profile-container">
+        <section class="profile-header">
+            <div class="avatar"></div>
+            <div class="profile-info">
+                <h2>Usuário</h2>
+                <a href="#">⚙️ Minha Conta</a>
+                <a href="#">🕒 Histórico de Compras</a>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="wishlists-section">
+            <h3>Wishlists</h3>
+            <div class="wishlist-grid">
+                
+                <div class="wishlist-card" onclick="window.location.href='wishlist.html'">
+                    <div class="card-img placeholder-img">Titanfall 2</div>
+                    <div class="card-body">
+                        <h4>Ação - FPS</h4>
+                        <p>R$ 89,90</p>
+                    </div>
+                </div>
+
+                <div class="wishlist-card" onclick="window.location.href='wishlist.html'">
+                    <div class="card-img placeholder-img">Batman: Arkham Knight</div>
+                    <div class="card-body">
+                        <h4>Aventura - História</h4>
+                        <p>R$ 59,90</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

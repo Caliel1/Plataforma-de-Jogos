@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Desejos - Cloud Play Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="wishlist.style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo" style="cursor: pointer;" onclick="window.location.href='index.html'">Cloud Play Store</div>
+        <nav>
+            <ul>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+        <button class="btn-login" onclick="window.location.href='index.html'">Sair</button>
+    </header>
+
+    <main class="wishlist-container">
+        <h2>Lista de Desejos</h2>
+        
+        <div class="wishlist-box">
+            
+            <div class="wishlist-item">
+                <div class="item-left">
+                    <div class="item-thumb"></div>
+                    <div class="item-details">
+                        <h4>Titanfall 2</h4>
+                        <span>Ação • FPS</span>
+                    </div>
+                </div>
+                <div class="item-right">
+                    <span class="price">R$ 89,90</span>
+                    <button class="btn-buy" onclick="window.location.href='carrinho.html'">Comprar</button>
+                    <button class="btn-remove">🗑️ Remover</button>
+                </div>
+            </div>
+
+            <div class="wishlist-item">
+                <div class="item-left">
+                    <div class="item-thumb"></div>
+                    <div class="item-details">
+                        <h4>Batman: Arkham Knight</h4>
+                        <span>Aventura</span>
+                    </div>
+                </div>
+                <div class="item-right">
+                    <span class="price">R$ 59,90</span>
+                    <button class="btn-buy" onclick="window.location.href='carrinho.html'">Comprar</button>
+                    <button class="btn-remove">🗑️ Remover</button>
+                </div>
+            </div>
+
+            <div class="total-bar">
+                <span>Total: <strong style="color: #d4af37;">R$ 139,80</strong></span>
+                <div class="cart-total">
+                    <span>🛒 R$ 139,80</span>
+                </div>
+            </div>
+            
+            <button class="btn-buy-all" onclick="window.location.href='carrinho.html'">Comprar todos</button>
+
+        </div>
+    </main>
+</body>
+</html>

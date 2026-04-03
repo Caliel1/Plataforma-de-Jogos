@@ -1,0 +1,129 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Corpo da página com o fundo escuro do Figma */
+body {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Centraliza a caixa de login verticalmente e horizontalmente */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* A caixa do formulário (ligeiramente mais clara que o fundo) */
+.login-box {
+    background-color: #1a1a1a;
+    padding: 50px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px; /* Largura máxima da caixa */
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Sombra suave para dar profundidade */
+}
+
+/* Título 'Login' */
+.login-box h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo */
+.subtitle {
+    color: #a0a0a0;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+
+/* Container de cada campo de input (label + input + link) */
+.input-group {
+    text-align: left;
+    margin-bottom: 25px;
+    position: relative; /* Necessário para posicionar o "Esqueci minha senha" */
+}
+
+/* Estilo das Labels (Email, Senha) */
+.input-group label {
+    display: block;
+    color: #a0a0a0;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* Estilo dos campos de texto/senha */
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    background-color: #2a2a2a; /* Cor de fundo do input */
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+/* Efeito ao clicar no input */
+.input-group input:focus {
+    outline: none;
+    border-color: #1a73e8; /* Borda azul ao focar */
+}
+
+/* Link "Esqueci minha senha" alinhado à direita abaixo do campo */
+.forgot-password {
+    display: block;
+    text-align: right;
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+
+/* Botão principal (Login) - Mantendo o padrão que criamos para a Home */
+.btn-primary {
+    width: 100%;
+    background-color: #1a73e8; /* Azul do Figma */
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+/* Efeito de hover no botão */
+.btn-primary:hover {
+    background-color: #155cb4;
+}
+
+/* Texto de "Não tem conta? Criar conta" */
+.signup-text {
+    margin-top: 30px;
+    color: #a0a0a0;
+    font-size: 0.9rem;
+}
+
+/* Link para criar conta */
+.signup-text a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}

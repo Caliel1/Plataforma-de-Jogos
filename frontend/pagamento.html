@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento - Cloud Play Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pagamento.style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo" style="cursor: pointer;" onclick="window.location.href='index.html'">Cloud Play Store</div>
+        <nav>
+            <ul>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+        <button class="btn-login" onclick="window.location.href='index.html'">Sair</button>
+    </header>
+
+    <main class="payment-container">
+        <div class="payment-box">
+            <h2>Escolha uma forma<br>de pagamento</h2>
+            
+            <div class="payment-grid">
+                <button class="btn-payment" onclick="window.location.href='confirmacao.html'">💳 Cartão de crédito</button>
+                <button class="btn-payment" onclick="window.location.href='confirmacao.html'">🅿️ PayPal</button>
+                <button class="btn-payment" onclick="window.location.href='confirmacao.html'">📄 Boleto</button>
+                <button class="btn-payment" onclick="window.location.href='confirmacao.html'">💠 Pix</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

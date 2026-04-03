@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - Cloud Play Store</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="carrinho.style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo" style="cursor: pointer;" onclick="window.location.href='index.html'">Cloud Play Store</div>
+        <nav>
+            <ul>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+        <button class="btn-login" onclick="window.location.href='index.html'">Sair</button> 
+    </header>
+
+    <main class="cart-container">
+        <div class="cart-box">
+            <h2>Carrinho</h2>
+            
+            <div class="cart-items">
+                <div class="cart-item">
+                    <div class="item-info">
+                        <span class="item-title">Titanfall 2</span>
+                        <span class="item-category">Ação / FPS</span>
+                    </div>
+                    <div class="item-price">R$ 89,90</div>
+                </div>
+
+                <div class="cart-item">
+                    <div class="item-info">
+                        <span class="item-title">Batman: Arkham Knight</span>
+                        <span class="item-category">Ação / Aventura</span>
+                    </div>
+                    <div class="item-price">R$ 49,90</div>
+                </div>
+            </div>
+
+            <div class="cart-summary">
+                <div class="total-line">
+                    <span>Total</span>
+                    <span class="total-price">R$ 139,80</span>
+                </div>
+                
+                <button class="btn-checkout" onclick="window.location.href='pagamento.html'">Finalizar compra</button>
+                <a href="index.html" class="btn-continue">Continuar comprando</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
